@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /private/  # Disallow indexing of specific directories

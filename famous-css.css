@@ -1,0 +1,540 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    max-height: 40px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.header .collapse {
+    flex-grow: 1;
+}
+
+.header .navbar-nav1,
+.header .navbar-nav2 {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display items in a single parallel line */
+    align-items: center; /* Vertically center items */
+}
+
+.header .nav-item {
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.main.body {
+    padding: 20px;
+}
+
+.bichig {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+}
+
+.main_body_bugs {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-top: 40px;
+    border-bottom: 40px;
+
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    color: black; /* Add this line to change the letter color to black */
+
+}
+
+.header img {
+    max-height: 40px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.header .collapse {
+    flex-grow: 1;
+}
+
+.header .navbar-nav1,
+.header .navbar-nav2 {
+    list-style: none;
+    padding: 0;
+    display: inline-flex; /* Display items in the same line */
+    align-items: center; /* Vertically center items */
+}
+
+.header .navbar-nav2 {
+    margin-left: 15px; /* Adjust the margin between navbar1 and navbar2 */
+}
+
+.header .nav-item {
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sb-footer-primaryLinks {
+    color: var(--colorTextBlackSoft);
+}
+.text-noUnderline {
+    -webkit-text-decoration: none!important;
+    text-decoration: none!important;
+}
+.py2 {
+    padding-top: 0.8rem!important;
+    padding-top: var(--space-2)!important;
+    padding-bottom: 0.8rem!important;
+    padding-bottom: var(--space-2)!important;
+}
+.block {
+    display: block!important;
+}
+a {
+    color: currentColor;
+}
+a {
+    background-color: transparent;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    background-color: var(--colorWhite);
+    color: rgba(0,0,0,.87);
+    color: var(--colorTextBlack);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: var(--typefacePrimary);
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-size: var(--textSize2);
+    line-height: 1.5;
+    line-height: var(--lineHeightNormal);
+    letter-spacing: -.01em;
+    letter-spacing: var(--letterSpacingNormal);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "calt";
+}
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.navbar-nav2 .nav-item:first-child a {
+    font-size: 16px; /* Match the font size with the navigation links */
+}
+.navbar-nav1{
+    padding-top: 30px;
+}
+.navbar-nav2 .navbar-nav2{
+    border: 3px solid #203c34; /* 1px solid border with 30% opacity green */
+    border-radius: 20px; /* 20px border radius for a rounded appearance */
+    background-color: #203c34; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Show hand cursor on hover for a button */
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background: ffffff;
+}
+
+
+a {
+  background-color: transparent;
+  box-sizing: border-box;
+  
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-decoration: none;
+}
+
+a:active {
+  outline: 0;
+}
+
+a:hover {
+  outline: 0;
+}
+
+span.footer-link {
+  box-sizing: border-box;
+  color:#111;
+  font-weight: 300;
+}
+
+span.footer-link:hover {
+  color: #111;
+  font-weight: 400;
+}
+
+span {
+  box-sizing: border-box;
+}
+
+strong {
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+img {
+  border-width: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p.footer-description {
+  box-sizing: border-box;
+  color:#111;
+  display: block;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: .5px;
+  line-height: 1.5em;
+  margin-bottom: 16px;
+  margin-top: 15px;
+}
+
+strong.link-email-footer {
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this CSS directly in your HTML document */
+.navbar-nav1, .navbar-nav2 {
+    list-style: none;
+    padding: 0;
+}
+.navbar-nav2 {
+    float: right;
+}
+    .custom-button {
+        border: 3px solid #FFFFFF; /* 1px solid border with 30% opacity green */
+        border-radius: 20px; /* 20px border radius for a rounded appearance */
+        background-color: #203c34; /* Green background color */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Adjust padding as needed */
+        cursor: pointer; /* Show hand cursor on hover for a button */
+        margin-top: 15px;
+    }
+    .custom-button1 {
+        border: 3px solid #FFFFFF; /* 1px solid border with 30% opacity green */
+        border-radius: 20px; /* 20px border radius for a rounded appearance */
+        background-color: #d89c2c; /* Green background color */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Adjust padding as needed */
+        cursor: pointer; /* Show hand cursor on hover for a button */
+        margin-top: 15px;
+    }
+
+.custom-button2 {
+    border: 3px solid #FFFFFF; /* 1px solid border with 30% opacity green */
+    border-radius: 20px; /* 20px border radius for a rounded appearance */
+    background-color: #78242c; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Show hand cursor on hover for a button */
+    margin-top: 15px;
+}
+
+.custom-button3 {
+    border: 3px solid #FFFFFF; /* 1px solid border with 30% opacity green */
+    border-radius: 20px; /* 20px border radius for a rounded appearance */
+    background-color: #b84c5c; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Show hand cursor on hover for a button */
+    margin-top: 15px;
+}
+
+.custom-button4 {
+    border: 3px solid #FFFFFF; /* 1px solid border with 30% opacity green */
+    border-radius: 20px; /* 20px border radius for a rounded appearance */
+    background-color: #203c34; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Show hand cursor on hover for a button */
+    margin-top: 15px;
+}
+
+.custom-button5 {
+    border: 3px solid #FFFFFF; /* 1px solid border with 30% opacity green */
+    border-radius: 20px; /* 20px border radius for a rounded appearance */
+    background-color: #203c34; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Show hand cursor on hover for a button */
+    margin-top: 15px;
+}
+.navbar-nav1 {
+    margin-top: 10px;
+    font-weight: 900;
+}
+.main.body{
+    border-top: 0.5px solid #9090a5;
+    border-bottom: 0.5px solid #9090a5;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header .nav-item1 {
+    padding-block: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.header .nav-item2 {
+    padding-block: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.header .nav-item1, .header .nav-item2 {
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.header .nav-item2 {
+    color: white; /* Change the text color to white */
+    background-color: black;
+}
+.collapse{
+    font-weight: 600;
+
+}
+
+
+
+
+/* Keyframes for odd rows (move from the left) */
+@keyframes moveFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Keyframes for even rows (move from the right) */
+@keyframes moveFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animations to odd and even rows */
+tr.animate-row.odd {
+    animation: moveFromLeft 1s ease both;
+}
+
+tr.animate-row.even {
+    animation: moveFromRight 1s ease both;
+}
+.footer td {
+    text-align: center;
+}
+.footer td.first-row {
+    font-size: 20px;
+}
+.footer td:hover {
+    color: red;
+}
+.table-container {
+    overflow-x: auto;
+}
+
+.collapse-icon {
+    display: none;
+    cursor: pointer;
+}
+.main_body_bugs:hover{
+    font-size: 15px;
+}
+.footer{
+    border-bottom: 0.5px solid #9090a5;
+
+}
+
+
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 130px;
+    width: 16%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 0.5px solid #9090a5;
+    margin-bottom: 20px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .social-link{
+  font-size: 24px;
+  margin: 0 10px;}
+
+
+
+
+.bugs table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 1px solid black; /* Add a border to the left side of the table */
+}
+
+
+
+.bugs td {
+    text-align: center;
+    border-left: 1px solid black; /* Add a left border to all table cells */
+    padding: 10px;
+    width: 20%; /* Divide the table into 4 equal-width columns */
+
+}
+/* Add a glowing hover effect for all hovers */
+.header a:hover,
+.custom-button:hover,
+.custom-button1:hover,
+.custom-button2:hover,
+.custom-button3:hover,
+.custom-button4:hover,
+.custom-button5:hover,
+.header .nav-item1:hover,
+.header .nav-item2:hover,
+.footer td:hover,
+.social-link:hover,
+.main_body_bugs:hover {
+    animation: glow 1s ease infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        color: red;
+        text-shadow: 0 0 10px yellow;
+    }
+    to {
+        color: green;
+        text-shadow: 0 0 10px blue;
+    }
+}
+h1, h2, h3 {
+    display: inline;
+    color: #ffffff;
+  }
